@@ -1,2 +1,3 @@
-# wp-hotjar
-Hotjar plugin for wordpress
+# WP Hotjar
+
+Hotjar plugin for Wordpress. See [readme.txt](readme.txt) for more details.

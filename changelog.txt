@@ -1,0 +1,4 @@
+*** WP Hotjar Changelog ***
+
+2017-06-18 - version 0.0.1
+* Initial Release
