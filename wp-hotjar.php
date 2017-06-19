@@ -23,6 +23,8 @@ if (!defined('ABSPATH')) {
   exit; // Exit if accessed directly
 }
 
+require_once plugin_dir_path( __FILE__ ) . 'classes/class-wp-hotjar-connector.php';
+
 /**
 * # WP Hotjar Main Plugin Class
 *
@@ -49,6 +51,9 @@ class WP_Hotjar {
   */
   public static function init() {
     self::$plugin_dir = dirname(__FILE__);
+
+    $connector = new WP_Hotjar_Connector();
+    $connector->load();
 
     // Load translation files
     add_action('plugins_loaded', __CLASS__ . '::load_plugin_textdomain');
