@@ -19,6 +19,7 @@
 
   <div>
     <label for="wp_hotjar_disable_for_admin">Disable for admin?</label>
+    <input type="hidden" name="wp_hotjar[disable_for_admin]" value="no">
     <input type="checkbox" name="wp_hotjar[disable_for_admin]" id="wp_hotjar_disable_for_admin"
       value="yes" <?php if('yes' === $settings['disable_for_admin']) { ?>checked="checked"<?php } ?> />
   </div>
