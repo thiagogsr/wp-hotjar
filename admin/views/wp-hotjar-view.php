@@ -5,6 +5,8 @@
   $settings = is_array($settings) ? $settings : $default_settings;
 ?>
 <h1>Hotjar</h1>
+<p>Visit your <a href="https://insights.hotjar.com/site/list" target="_blank">Hotjar site list</a>
+  and get the unique ID.</p>
 
 <form method="post" action="options.php">
   <?php settings_fields( 'wp_hotjar' ); ?>
