@@ -7,12 +7,22 @@ Stable tag: 0.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Hotjar connector that avoids connections when logged in wp-admin.
+Hotjar connector that can prevent pings while logged as admin.
 
 == Description ==
 
-Plugin to connect your site with hotjar changing the Hotjar ID from wp-admin.
-Also it does not connect with Hotjar while you are logged.
+[Hotjar](https://www.hotjar.com/) is a 3rd tool that provide analytics and feedback for
+your users with heatmaps, recordings, funnels, pools, surveys, etc.
+
+This plugin allow you to connect this tool using its javascript code without put your hands
+in the source code. Fill your Hotjar ID, it is enough.
+
+The second advantage to use this plugin is the possibility to disable it in your site while
+you are logged as admin. This is important to not generate fake analytics data in your heatmaps
+and records in Hotjar.
+
+Hotjar injects a javascript code in your site to capture the visitors events like scroll,
+clicks, time on page, etc. You can visualize all reports in Hotjar dashboard.
 
 = Get involved =
 
