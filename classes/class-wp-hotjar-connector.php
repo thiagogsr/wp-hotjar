@@ -20,7 +20,7 @@ class WP_Hotjar_Connector {
     $settings = get_option( 'wp_hotjar' );
     $is_admin = is_admin() || current_user_can('manage_options');
 
-    if (!is_array($settings) || ($is_admin && 'yes' === $settings['disable_for_admin'])) {
+    if (!is_array($settings) || ($is_admin && 'yes' === $settings['disable_for_admin']) || !$settings['hotjar_id'] ) {
       return;
     }
 

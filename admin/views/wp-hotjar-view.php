@@ -15,6 +15,8 @@
     <label for="wp_hotjar_id">Hotjar ID</label><br />
     <input type="text" name="wp_hotjar[hotjar_id]" id="wp_hotjar_id"
       value="<?php echo $settings['hotjar_id']; ?>" maxlength="10" />
+    <br />
+    (Leave blank to disable)
   </div>
 
   <br />
