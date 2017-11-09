@@ -20,6 +20,11 @@ class WP_Hotjar_Connector {
     $settings = get_option( 'wp_hotjar' );
     $is_admin = is_admin() || current_user_can('manage_options');
 
+    $hotjar_id = trim($settings['hotjar_id']);
+    if (!$hotjar_id) {
+      return;
+    }
+
     if (!is_array($settings) || ($is_admin && 'yes' === $settings['disable_for_admin'])) {
       return;
     }
@@ -28,7 +33,7 @@ class WP_Hotjar_Connector {
     <script>
       (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:" . $settings['hotjar_id'] . ",hjsv:5};
+        h._hjSettings={hjid:" . $hotjar_id . ",hjsv:5};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
