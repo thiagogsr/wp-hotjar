@@ -3,7 +3,7 @@ Contributors: thiagogsrwp
 Tags: hotjar
 Requires at least: 3.8
 Tested up to: 4.8.0
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,6 +40,9 @@ Developers can contribute to the source code on the [GitHub Repository](https://
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+
+= 0.0.2 - 2017-11-09 =
+* Trim hotjar id and check if it is present before render js snippet. Thanks @mvc1095
 
 = 0.0.1 - 2017-06-18 =
 * Initial Release

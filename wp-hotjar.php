@@ -5,7 +5,7 @@
 * Description: Hotjar connector that avoids connections when logged in wp-admin.
 * Author: Thiago Guimarães
 * Author URI: https://github.com/thiagogsr
-* Version: 0.0.1
+* Version: 0.0.2
 * Text Domain: wp-hotjar
 * Domain Path: /languages/
 *
@@ -36,7 +36,7 @@ require_once plugin_dir_path( __FILE__ ) . 'classes/class-wp-hotjar-connector.ph
 */
 class WP_Hotjar {
   /** plugin version number */
-  public static $version = '0.0.1';
+  public static $version = '0.0.2';
 
   /** @var string the plugin file */
   public static $plugin_file = __FILE__;
