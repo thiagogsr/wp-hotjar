@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Hotjar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-27 07:06+0000\n"
+"PO-Revision-Date: 2018-03-27 07:36+0000\n"
+"Last-Translator: Antti Koskinen <antti.koskinen@fissiomedia.fi>\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: admin/views/wp-hotjar-view.php:13
+msgid "Hotjar"
+msgstr "Hotjar"
+
+#: admin/views/wp-hotjar-view.php:19
+#, php-format
+msgid ""
+"Visit your <a href=\"%s\" target=\"_blank\">Hotjar site list</a> and get the "
+"unique ID."
+msgstr ""
+"Tarkista ja kopioi <a href=\"%s\" target=\"_blank\">Hotjar-"
+"sivustolistauksestasi</a> sivustokohtainen ID."
+
+#: admin/views/wp-hotjar-view.php:33
+msgid "Hotjar ID"
+msgstr "Hotjar ID"
+
+#: admin/views/wp-hotjar-view.php:38
+msgid "(Leave blank to disable)"
+msgstr ""
+"Jätä kenttä tyhjäksi, jos haluat poistaa Hotjar-seurannan sivustoltasi."
+
+#: admin/views/wp-hotjar-view.php:46
+msgid "Disable for admin?"
+msgstr "Älä seuraa pääkäyttäjiä"
+
+#. Name of the plugin
+msgid "WP Hotjar"
+msgstr "WP Hotjar"
+
+#. Description of the plugin
+msgid "Hotjar connector that avoids connections when logged in wp-admin."
+msgstr ""
+"Lisää Hotjar-seurantatunnus sivustollesi. Voit valinnaisesti olla "
+"seuraamatta pääkäyttäjien toimintaa sivustolla."
+
+#. URI of the plugin
+msgid "https://github.com/thiagogsr/wp-hotjar"
+msgstr "https://github.com/thiagogsr/wp-hotjar"
+
+#. Author of the plugin
+msgid "Thiago Guimarães"
+msgstr "Thiago Guimarães"
+
+#. Author URI of the plugin
+msgid "https://github.com/thiagogsr"
+msgstr "https://github.com/thiagogsr"
