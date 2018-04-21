@@ -1,0 +1,58 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-27 07:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/views/wp-hotjar-view.php:13
+msgid "Hotjar"
+msgstr ""
+
+#: admin/views/wp-hotjar-view.php:19
+#, php-format
+msgid ""
+"Visit your <a href=\"%s\" target=\"_blank\">Hotjar site list</a> and get the "
+"unique ID."
+msgstr ""
+
+#: admin/views/wp-hotjar-view.php:33
+msgid "Hotjar ID"
+msgstr ""
+
+#: admin/views/wp-hotjar-view.php:38
+msgid "(Leave blank to disable)"
+msgstr ""
+
+#: admin/views/wp-hotjar-view.php:46
+msgid "Disable for admin?"
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Hotjar"
+msgstr ""
+
+#. Description of the plugin
+msgid "Hotjar connector that avoids connections when logged in wp-admin."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/thiagogsr/wp-hotjar"
+msgstr ""
+
+#. Author of the plugin
+msgid "Thiago Guimarães"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/thiagogsr"
+msgstr ""

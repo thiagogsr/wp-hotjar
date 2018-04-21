@@ -1,4 +1,8 @@
 <?php
+
+// No direct access to this file
+defined( 'ABSPATH' ) or die();
+
 class WP_Hotjar_Connector {
   public function load() {
     $this->load_dependencies();
